@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:background="@drawable/image_4">
+	<TableRow>
+		<TextView
+			android:layout_width="400dp"
+			android:layout_height="50dp"
+			android:id="@+id/mainTextView"
+			android:textSize="25dp"
+			
+			/>
+	</TableRow>
+	<TableRow>
+		<EditText
+			android:id="@+id/mainEditText1"
+			android:layout_width="200dp"
+			android:layout_height="50dp"
+			android:inputType="number|numberDecimal"
+		    
+			/>
+	</TableRow>
+	<TableRow>
+		<EditText
+			android:id="@+id/mainEditText2"
+			android:layout_width="30dp"
+			android:layout_height="50dp"
+			android:inputType="number|numberDecimal"
+			/>
+	</TableRow>
+	<TableRow>
+		<Button
+			android:id="@+id/modulodivision"
+			android:text="modulodivision"
+			android:layout_width="30dp"
+			android:layout_height="40dp"
+			
+			/>
+	</TableRow>
+	<TableRow>
+		<Button
+			android:id="@+id/add"
+			android:text="add"
+			android:layout_width="50dp"
+			android:layout_height="40dp"
+			
+                   />
+	</TableRow>
+	<TableRow>
+         <Button
+			android:id="@+id/subtract"
+			android:text="subtract"
+			android:layout_width="50dp"
+			android:layout_height="40dp"
+			/>
+</TableRow>
+<TableRow>
+	<Button
+		android:id="@+id/multiply"
+			android:text="multiply"
+			android:layout_width="50dp"
+			android:layout_height="40dp"
+			/>
+</TableRow>
+	<TableRow>
+		<Button
+			android:id="@+id/divide"
+			android:text="divide"
+			android:layout_width="50dp"
+			android:layout_height="40dp"
+			/>
+	</TableRow>
+</TableLayout>
+
